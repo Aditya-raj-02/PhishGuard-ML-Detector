@@ -40,7 +40,7 @@ This is the component that actually gets installed and saved directly into your 
 ### Open Google Chrome and navigate to chrome://extensions/.
 ### Turn on Developer mode in the top right.
 ### Click the Load unpacked button in the top left.
-### Select your PhishGuard_Extension folder.
+### Select your PhishGuard folder(where your all files are).
 
 
 ## 2. Start the Backend Server (Terminal 1)
