@@ -30,11 +30,11 @@ The project is decoupled into four primary components:
 
 
 
-## 🚀 How to Run Locally
+# 🚀 How to Run Locally
 If you wish to run the PhishGuard environment locally, you will need two separate terminal instances.
 
 
-# 1. The Chrome Extension (User View)
+## 1. The Chrome Extension (User View)
 This is the component that actually gets installed and saved directly into your browser to scan live websites. If this is the part you were actually trying to add to Chrome, here is how you do it:
 
 ### Open Google Chrome and navigate to chrome://extensions/.
@@ -43,14 +43,14 @@ This is the component that actually gets installed and saved directly into your 
 ### Select your PhishGuard_Extension folder.
 
 
-# 2. Start the Backend Server (Terminal 1)
+## 2. Start the Backend Server (Terminal 1)
 ### Install required Python dependencies
 python -m pip install fastapi uvicorn xgboost pandas joblib
 ### Launch the FastAPI inference server
 python -m uvicorn app:app --reload
 
 
-# 3. Start the React Dashboard (Terminal 2)
+## 3. Start the React Dashboard (Terminal 2)
 ### Navigate to the frontend directory
 cd dashboard
 ### Install Node modules
