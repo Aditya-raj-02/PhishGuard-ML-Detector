@@ -37,10 +37,10 @@ If you wish to run the PhishGuard environment locally, you will need two separat
 # 1. The Chrome Extension (User View)
 This is the component that actually gets installed and saved directly into your browser to scan live websites. If this is the part you were actually trying to add to Chrome, here is how you do it:
 
-Open Google Chrome and navigate to chrome://extensions/.
-Turn on Developer mode in the top right.
-Click the Load unpacked button in the top left.
-Select your PhishGuard_Extension folder.
+### Open Google Chrome and navigate to chrome://extensions/.
+### Turn on Developer mode in the top right.
+### Click the Load unpacked button in the top left.
+### Select your PhishGuard_Extension folder.
 
 
 # 2. Start the Backend Server (Terminal 1)
@@ -58,7 +58,7 @@ npm install
 npm install lucide-react
 ### Launch the Vite development server
 npm run dev
-### copy (http://localhost:5173) appeared in the terminal.
+### copy link like (http://localhost:5173) appeared in the terminal.
 
 
 # 2: Open it in Google Chrome
